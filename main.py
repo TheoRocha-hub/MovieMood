@@ -2,7 +2,7 @@ from fastapi import FastAPI
 import httpx
 
 app = FastAPI()
-API_KEY = "2f43ac16"
+API_KEY = ""
 
 @app.get("/")
 def home():
